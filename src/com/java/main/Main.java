@@ -1,10 +1,13 @@
 package com.java.main;
 
+import com.java.NumberPrograms.NumberToWord;
+import com.java.NumberPrograms.ReverseNumber;
 import com.java.basicprograms.*;
 
 public class Main {
     public static void main(String[] args) {
-       basicPrograms();
+       //basicPrograms();
+        numberPrograms();
     }
 
     private static void basicPrograms(){
@@ -31,6 +34,19 @@ public class Main {
 
         //**Exercise #7 Patterns
         //Patterns.printTrianglePattern();
+
+    }
+
+    private static void numberPrograms(){
+        //##Exercise 1.1 - Reverse number using while
+        /*int randomNum=RandomNumber.getRandomNumber(1000,10000);
+        System.out.println("Reverse Number for (while) " + randomNum);
+        System.out.println(ReverseNumber.reverseNumberWhile(randomNum));
+        //##Exercise 1.2 - Reverse number using for
+        System.out.println("Reverse Number for (for) " + randomNum);
+        System.out.println(ReverseNumber.reverseNumberFor(randomNum));*/
+        //##Exercise 2.1 - Number to word
+        System.out.println(NumberToWord.numberToWord("140".toCharArray()));
 
     }
 }
