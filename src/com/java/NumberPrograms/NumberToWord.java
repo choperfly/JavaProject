@@ -1,7 +1,5 @@
 package com.java.NumberPrograms;
 
-import sun.rmi.runtime.NewThreadAction;
-
 public class NumberToWord {
 
     public static String numberToWord(char num[]){

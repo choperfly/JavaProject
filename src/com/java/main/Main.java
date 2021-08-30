@@ -1,6 +1,8 @@
 package com.java.main;
 
+import com.java.NumberPrograms.AuthomorphicNumber;
 import com.java.NumberPrograms.NumberToWord;
+import com.java.NumberPrograms.PetersonNumber;
 import com.java.NumberPrograms.ReverseNumber;
 import com.java.basicprograms.*;
 
@@ -46,10 +48,22 @@ public class Main {
         System.out.println("Reverse Number for (for) " + randomNum);
         System.out.println(ReverseNumber.reverseNumberFor(randomNum));*/
         //##Exercise 2.1 - Number to word
-        for (int i=0;i<=10;i++) {
+        /*for (int i=0;i<=10;i++) {
             int randomNum=RandomNumber.getRandomNumber(1,9999);
             System.out.println(NumberToWord.numberToWord(String.valueOf(randomNum).toCharArray()));
-        }
-
+        }*/
+        //##Exercise 3.1 - AuthomorphicNumber
+        /*for (int i=1;i<=100;i++) {
+            //int randomNum=RandomNumber.getRandomNumber(1,1000);
+            System.out.print("Number: "+i+" is ");
+            System.out.print(AuthomorphicNumber.authomorphic(i)?"Authomorphic":"Not automorphic");
+            System.out.println();
+        }*/
+        //##PetersonNumber 3.2 - PetersonNumber
+        System.out.print("Number: 145 is ");
+        System.out.print(PetersonNumber.isPeterson(145) ?"Peterson Number":" not Peterson Number");
+        System.out.println();
+        System.out.print("Number: 130 is ");
+        System.out.print(PetersonNumber.isPeterson(130) ?"Peterson Number":" not Peterson Number");
     }
 }
