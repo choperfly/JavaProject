@@ -1,9 +1,6 @@
 package com.java.main;
 
-import com.java.NumberPrograms.AuthomorphicNumber;
-import com.java.NumberPrograms.NumberToWord;
-import com.java.NumberPrograms.PetersonNumber;
-import com.java.NumberPrograms.ReverseNumber;
+import com.java.NumberPrograms.*;
 import com.java.basicprograms.*;
 
 public class Main {
@@ -60,10 +57,21 @@ public class Main {
             System.out.println();
         }*/
         //##PetersonNumber 3.2 - PetersonNumber
-        System.out.print("Number: 145 is ");
-        System.out.print(PetersonNumber.isPeterson(145) ?"Peterson Number":" not Peterson Number");
-        System.out.println();
-        System.out.print("Number: 130 is ");
-        System.out.print(PetersonNumber.isPeterson(130) ?"Peterson Number":" not Peterson Number");
+        //System.out.print("Number: 145 is ");
+        //System.out.print(PetersonNumber.isPeterson(145) ?"Peterson Number":" not Peterson Number");
+        //System.out.println();
+        //System.out.print("Number: 130 is ");
+        //System.out.print(PetersonNumber.isPeterson(130) ?"Peterson Number":" not Peterson Number");
+
+        //## 3.2 - Sunny Number
+        //int sunnyNumber=25;
+        //System.out.print("Number:"+sunnyNumber+" is");
+        //System.out.print(SunnyNumber.isSunnyNumber(sunnyNumber)?" sunny number":" not sunny number");
+
+        //##3.3 Technumber
+        int techNumber1=2025,techNumber2=1312;
+        System.out.println(TechNumber.isTechNumber2(techNumber1));
+        System.out.println(TechNumber.isTechNumber2(techNumber2));
+        System.out.println(TechNumber.isTechNumber2(9));
     }
 }
