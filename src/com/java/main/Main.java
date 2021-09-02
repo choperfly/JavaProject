@@ -49,29 +49,51 @@ public class Main {
             int randomNum=RandomNumber.getRandomNumber(1,9999);
             System.out.println(NumberToWord.numberToWord(String.valueOf(randomNum).toCharArray()));
         }*/
-        //##Exercise 3.1 - AuthomorphicNumber
+        //##AuthomorphicNumber
         /*for (int i=1;i<=100;i++) {
             //int randomNum=RandomNumber.getRandomNumber(1,1000);
             System.out.print("Number: "+i+" is ");
             System.out.print(AuthomorphicNumber.authomorphic(i)?"Authomorphic":"Not automorphic");
             System.out.println();
         }*/
-        //##PetersonNumber 3.2 - PetersonNumber
+        //##PetersonNumber
         //System.out.print("Number: 145 is ");
         //System.out.print(PetersonNumber.isPeterson(145) ?"Peterson Number":" not Peterson Number");
         //System.out.println();
         //System.out.print("Number: 130 is ");
         //System.out.print(PetersonNumber.isPeterson(130) ?"Peterson Number":" not Peterson Number");
 
-        //## 3.2 - Sunny Number
+        //## Sunny Number
         //int sunnyNumber=25;
         //System.out.print("Number:"+sunnyNumber+" is");
         //System.out.print(SunnyNumber.isSunnyNumber(sunnyNumber)?" sunny number":" not sunny number");
 
-        //##3.3 Technumber
-        int techNumber1=2025,techNumber2=1312;
+        //##Technumber
+        /*int techNumber1=2025,techNumber2=1312;
         System.out.println(TechNumber.isTechNumber2(techNumber1));
         System.out.println(TechNumber.isTechNumber2(techNumber2));
-        System.out.println(TechNumber.isTechNumber2(9));
+        System.out.println(TechNumber.isTechNumber2(9));*/
+
+        //##FascinatingNumber
+        /*int techNumber1=192,techNumber2=328;
+        System.out.println(FascinatingNumber.isFascinatingNumber(techNumber1));
+        System.out.println(FascinatingNumber.isFascinatingNumber(techNumber2));*/
+
+        //##Keith Number
+        /*int number1=20,number2=742;
+        System.out.println(KeithNumber.isKeithNumber(number1)?"Number:"+number1+" is keith number":"Number:"+number1+" is not keith number");
+        System.out.println(KeithNumber.isKeithNumber(number2)?"Number:"+number2+" is keith number":"Number:"+number2+" is not keith number");
+*/
+       /* //##Neon Number
+        int neonNumber1=9,neonNumber2=45;
+        System.out.println(NeonNumber.isNeonNumber(neonNumber1));
+        System.out.println(NeonNumber.isNeonNumber(neonNumber2));*/
+
+        //##Spy Number
+        int spyNumber1=132,spyNumber2=217;
+        SpyNumber spyNum1 = new SpyNumber(spyNumber1);
+        SpyNumber spyNum2= new SpyNumber(spyNumber2);
+        System.out.println(spyNum1.isSpyNumber()?"Number:"+spyNumber1+" is a spynumber":"Number:"+spyNumber1+" is not a spynumber");
+        System.out.println(spyNum2.isSpyNumber()?"Number:"+spyNumber2+" is a spynumber":"Number:"+spyNumber2+" is not a spynumber");
     }
 }
