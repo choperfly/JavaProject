@@ -90,10 +90,45 @@ public class Main {
         System.out.println(NeonNumber.isNeonNumber(neonNumber2));*/
 
         //##Spy Number
-        int spyNumber1=132,spyNumber2=217;
+        /*int spyNumber1=132,spyNumber2=217;
         SpyNumber spyNum1 = new SpyNumber(spyNumber1);
         SpyNumber spyNum2= new SpyNumber(spyNumber2);
         System.out.println(spyNum1.isSpyNumber()?"Number:"+spyNumber1+" is a spynumber":"Number:"+spyNumber1+" is not a spynumber");
-        System.out.println(spyNum2.isSpyNumber()?"Number:"+spyNumber2+" is a spynumber":"Number:"+spyNumber2+" is not a spynumber");
-    }
+        System.out.println(spyNum2.isSpyNumber()?"Number:"+spyNumber2+" is a spynumber":"Number:"+spyNumber2+" is not a spynumber");*/
+
+        //##ATM
+       /* int money, transCode=0;
+        ATM atm = new ATM();
+        for (int i=1;i<=4;i++){
+            System.out.println("Current balance amount:"+ atm.getBalance());
+            money=RandomNumber.getRandomNumber(1000,10000);
+            switch (i){
+                case 1:
+                    transCode=atm.withdraw(money);
+                    System.out.println("Withdraw amount:"+money);
+                    System.out.println(atm.message("withdraw",transCode));
+                    break;
+                case 2:
+                    transCode=atm.deposit(money);
+                    System.out.println("Deposit amount:"+money);
+                    System.out.println(atm.message("deposit",transCode));
+                    break;
+                case 3:
+                    transCode=200;
+                    System.out.println(atm.message("balance",transCode));
+                    break;
+                default:
+                    System.out.println("Have a good day!");
+            }*/
+
+        //##Autobiographical number
+        //AutobiographicalNumber test = new AutobiographicalNumber();
+        //AutobiographicalNumber.
+        //System.out.println(AutobiographicalNumber.autobiographicalNumber(1210));
+        //Emirp Number
+        logMessage(EmirpNumber.isEmirpNumber(12)? "Number"+ 199 +" is Emirp Number":"Number"+ 199 +" is not Emirp Number");
+     }
+        private static void logMessage(String message){
+            System.out.println(message);
+        }
 }
