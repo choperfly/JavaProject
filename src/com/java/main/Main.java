@@ -126,7 +126,21 @@ public class Main {
         //AutobiographicalNumber.
         //System.out.println(AutobiographicalNumber.autobiographicalNumber(1210));
         //Emirp Number
-        logMessage(EmirpNumber.isEmirpNumber(12)? "Number"+ 199 +" is Emirp Number":"Number"+ 199 +" is not Emirp Number");
+        //logMessage(EmirpNumber.isEmirpNumber(12)? "Number"+ 199 +" is Emirp Number":"Number"+ 199 +" is not Emirp Number");
+        //BuzzNumber
+        logMessage(BuzzNumber.isBuzzNumber(32)? "It's a buzz number":"It's not a buzz number");
+        //DuckNumber
+        logMessage("Duck Number");
+        logMessage(DuckNumber.isDuckNumber(10)?"It's a duck number":"It's not a duck number");
+        logMessage(DuckNumber.isDuckNumber(32)?"It's a duck number":"It's not a duck number");
+        //ISBN number
+        logMessage("ISBN Number");
+        logMessage(ISBNNumber.isISBNNumber(8147852369L)?"It's a ISBN number":"It's not a ISBN number");
+        logMessage(ISBNNumber.isISBNNumber(1259060977)?"It's a ISBN number":"It's not a ISBN number");
+        //Krishnamurthy number
+        logMessage("Krishnamurthy number");
+        logMessage(KrishnamurthyNumber.isKrishnaNum(145)?"It's a Krishnamurthy number":"It's not a Krishnamurthy number");
+        logMessage(KrishnamurthyNumber.isKrishnaNum(130)?"It's a Krishnamurthy number":"It's not a Krishnamurthy number");
      }
         private static void logMessage(String message){
             System.out.println(message);
