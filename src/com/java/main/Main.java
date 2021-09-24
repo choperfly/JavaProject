@@ -141,6 +141,23 @@ public class Main {
         logMessage("Krishnamurthy number");
         logMessage(KrishnamurthyNumber.isKrishnaNum(145)?"It's a Krishnamurthy number":"It's not a Krishnamurthy number");
         logMessage(KrishnamurthyNumber.isKrishnaNum(130)?"It's a Krishnamurthy number":"It's not a Krishnamurthy number");
+        //Bouncy number
+        logMessage("Bouncy number");
+        logMessage(BouncyNumber.isBouncyNumber(30)?"It's a Bouncy number":"It's not a Bouncy number");
+        logMessage(BouncyNumber.isBouncyNumber(123742)?"It's a Bouncy number":"It's not a Bouncy number");
+        logMessage(BouncyNumber.isBouncyNumber(135)?"It's a Bouncy number":"It's not a Bouncy number");
+        //Mistery number
+        logMessage("Mistery number");
+        logMessage(MisteryNumber.isMisteryNumner(154)?"It's a Mistery number":"It's not a Mistery number");
+        logMessage(MisteryNumber.isMisteryNumner(123)?"It's a Mistery number":"It's not a Mistery number");
+        //Smith Number
+        logMessage("Smith Number");
+        logMessage(SmithNumber.isSmitNumber(265)?"It's a Smith Number":"It's not a Smith Number");
+        logMessage(SmithNumber.isSmitNumber(668)?"It's a Smith Number":"It's not a Smith Number");
+        //StrontioNumber Number
+        logMessage("Strontio Number");
+        logMessage(StrontioNumber.isStrontioNumber(1386)?"It's a Strontio Number":"It's not a Strontio Number");
+        logMessage(StrontioNumber.isStrontioNumber(7587)?"It's a Strontio Number":"It's not a Strontio Number");
      }
         private static void logMessage(String message){
             System.out.println(message);
